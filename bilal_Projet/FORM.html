@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve une seance
+    </title>
+    <link rel="icon" href="image/unX.png">
+</head>
+<style>
+    body{
+        
+        background-image: url(abstract-3d-3840x2160.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    .formul{
+        border: 2px solid gray;
+        text-align: center;
+        margin: 130px;
+        padding: 3%;
+        overflow: hidden;
+        margin-right: 190px;
+        margin-left: 190px;
+        border: none;
+        background-color: rgb(124, 158, 146);
+        border-radius: 20px;
+    }
+    input{
+        margin: 10px;
+        width: 400px;
+        height: 35px;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(12, 31, 31);
+    }
+    select{
+        width: 410px;
+        height: 45px;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(12, 31, 31);
+        color: gray;
+    }
+    #btn{
+        width: 410px;
+        height: 45px;
+        background-color: rgb(12, 31, 31);
+        color: gray;
+        border-radius: 20px;
+        border: none;
+    }
+    h1{
+        text-align: center;
+        font-weight: 400;
+        font-family: 'Courier New', Courier, monospace;        color: grey;
+        font-style: oblique;
+    }
+</style>
+<body>
+    <h1>Reserve une seance
+    </h1>
+    <div class="formul">
+        <form action="">
+            <input type="text" name="NOM ET PRENOM" id="NOM ET PRENOM" placeholder="  NOM ET PRENOM"><br>
+            <input type="tel" name="tel" id="tel" placeholder="  Téléphone"><br>
+            <input type="email" name="email" id="email" placeholder="  E-mail"><br>
+            <select>
+                <option value=""></option>
+                <option value="Formation">Formation</option>
+                <option value="Cours soutien">Cours soutien</option>
+            </select><br>
+            <input type="submit" value="ENVOYER" id="btn" >
+        </form>
+     
+    </div>
+</body>
+</html>
